@@ -15,9 +15,11 @@ git status
 git add e para adicionar um arquivo no git:
 git add oqueeuquero.txt
 
+
+para adicionar emviar o arquivo
 git commit -m "enviando arquivos feito no computdor para o git em fase de adaptação., tipo: comitando meu primeiro programa" 
 
 
 enviar para o repositorio
-
+confirmar o envio de um arquivo:
 git push -u origin master
