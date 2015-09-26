@@ -1,0 +1,23 @@
+clonando o arquivo no computador com o git no site.
+
+para saber se esta funcionando com o site do git digite o comando ssh -T git@github.com
+
+para clonar o que esta no site com o computador.
+git clone git@github.com:Alexssandrolima/estudos.git
+
+
+adicionar uma origin
+e sincronizar as pastas
+git remote add origin git@github.com:Alexssandrolima/estudos.git
+
+
+git status
+
+git add oqueeuquero.txt
+
+git commit -m "enviando arquivos feito no computdor para o git em fase de adaptação., tipo: comitando meu primeiro programa" 
+
+
+enviar para o repositorio
+
+git push -u origin master
