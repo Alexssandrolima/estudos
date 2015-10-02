@@ -8,3 +8,13 @@ C:\git\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.pdb
 C:\git\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.FormEmail.resources
 C:\git\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.FormConfigurarEmail.resources
 C:\git\estudos\SendEmail\SendEmail\bin\Debug\SendEmail.exe.config
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\bin\Debug\SendEmail.exe.config
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.exe
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.pdb
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\bin\Debug\SendEmail.exe
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\bin\Debug\SendEmail.pdb
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.FormConfigurarEmail.resources
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.FormEmail.resources
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.FormPrincipal.resources
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.Properties.Resources.resources
+C:\ProjetosCshap\estudos\SendEmail\SendEmail\obj\x86\Debug\SendEmail.csproj.GenerateResource.Cache
