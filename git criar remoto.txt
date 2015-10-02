@@ -23,3 +23,20 @@ git commit -m "enviando arquivos feito no computdor para o git em fase de adapta
 enviar para o repositorio
 confirmar o envio de um arquivo:
 git push -u origin master
+
+
+
+VERIFICANDO SE TEVE ALGUMA MODIFICAÇÃO NO GITHUB
+
+olhar se tem alguma atualização no site antes de modificar algum projeto.
+$~ git fetch
+
+
+O comando git fetch comunica com um repositório remoto e obtém-se todas as informações que está naquele repositório que não está na sua atual e armazena em seu banco de dados local.
+
+
+$~ git pull
+O comando git pull é basicamente uma combinação do git fetch e git comandos, onde Git vai ser trazida a partir do remoto que você especificar e, em seguida, imediatamente tenta fundi-la para o projeto que você está em mesclar.
+
+$~ git push
+O comando git push é usado para se comunicar com outro repositório, calcular o seu banco de dados local tem que o remoto não faz, e, em seguida, empurra a diferença para o outro repositório. Ele requer acesso ao outro repositório de escrever e por isso normalmente é autenticado de alguma forma.
