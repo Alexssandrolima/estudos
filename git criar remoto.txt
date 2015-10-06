@@ -20,6 +20,19 @@ para adicionar emviar o arquivo
 git commit -m "enviando arquivos feito no computdor para o git em fase de adaptação., tipo: comitando meu primeiro programa" 
 
 
+CLIENTE@ALEXI3-PC /c/ProjetosCshap/estudos (master)
+$ git commit -m "enviando un unico arquivos fase de adaptação., tipo: comitando
+ meu primeiro arquivo"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   git criar remoto.txt
+
+no changes added to commit
+
+CLIENTE@ALEXI3-PC /c/ProjetosCshap/estudos (master)
+
 enviar para o repositorio
 confirmar o envio de um arquivo:
 git push -u origin master

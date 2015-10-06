@@ -1,0 +1,7 @@
+C:\ProjetosCshap\estudos\ImprimindoTextoDiretoImpressora\bin\Debug\ImprimindoTextoDiretoImpressora.exe
+C:\ProjetosCshap\estudos\ImprimindoTextoDiretoImpressora\bin\Debug\ImprimindoTextoDiretoImpressora.pdb
+C:\ProjetosCshap\estudos\ImprimindoTextoDiretoImpressora\obj\x86\Debug\ImprimindoTextoDiretoImpressora.FormImpressao.resources
+C:\ProjetosCshap\estudos\ImprimindoTextoDiretoImpressora\obj\x86\Debug\ImprimindoTextoDiretoImpressora.Properties.Resources.resources
+C:\ProjetosCshap\estudos\ImprimindoTextoDiretoImpressora\obj\x86\Debug\ImprimindoTextoDiretoImpressora.csproj.GenerateResource.Cache
+C:\ProjetosCshap\estudos\ImprimindoTextoDiretoImpressora\obj\x86\Debug\ImprimindoTextoDiretoImpressora.exe
+C:\ProjetosCshap\estudos\ImprimindoTextoDiretoImpressora\obj\x86\Debug\ImprimindoTextoDiretoImpressora.pdb
