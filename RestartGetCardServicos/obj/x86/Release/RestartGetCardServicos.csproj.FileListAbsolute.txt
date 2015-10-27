@@ -1,0 +1,9 @@
+C:\ProjetosCshap\estudos\RestartGetCardServicos\bin\Release\RestartGetCardServicos.exe.config
+C:\ProjetosCshap\estudos\RestartGetCardServicos\bin\Release\RestartGetCardServicos.exe
+C:\ProjetosCshap\estudos\RestartGetCardServicos\bin\Release\RestartGetCardServicos.pdb
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Release\RestartGetCardServicos.FormConfigurar.resources
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Release\RestartGetCardServicos.FormPrincipal.resources
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Release\RestartGetCardServicos.Properties.Resources.resources
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Release\RestartGetCardServicos.csproj.GenerateResource.Cache
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Release\RestartGetCardServicos.exe
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Release\RestartGetCardServicos.pdb

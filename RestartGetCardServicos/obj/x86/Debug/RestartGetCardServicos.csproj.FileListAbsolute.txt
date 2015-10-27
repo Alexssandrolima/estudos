@@ -1,0 +1,10 @@
+C:\ProjetosCshap\estudos\RestartGetCardServicos\bin\Debug\RestartGetCardServicos.exe
+C:\ProjetosCshap\estudos\RestartGetCardServicos\bin\Debug\RestartGetCardServicos.pdb
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Debug\RestartGetCardServicos.FormPrincipal.resources
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Debug\RestartGetCardServicos.Properties.Resources.resources
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Debug\RestartGetCardServicos.csproj.GenerateResource.Cache
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Debug\RestartGetCardServicos.exe
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Debug\RestartGetCardServicos.pdb
+C:\ProjetosCshap\estudos\RestartGetCardServicos\bin\Debug\RestartGetCardServicos.exe.config
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Debug\RestartGetCardServicos.FormConfigurar.resources
+C:\ProjetosCshap\estudos\RestartGetCardServicos\obj\x86\Debug\RestartGetCardServicos.csprojResolveAssemblyReference.cache
