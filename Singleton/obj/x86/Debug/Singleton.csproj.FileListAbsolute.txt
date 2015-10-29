@@ -1,0 +1,8 @@
+C:\ProjetosCshap\estudos\Singleton\obj\x86\Debug\Singleton.Form1.resources
+C:\ProjetosCshap\estudos\Singleton\obj\x86\Debug\Singleton.Properties.Resources.resources
+C:\ProjetosCshap\estudos\Singleton\obj\x86\Debug\Singleton.csproj.GenerateResource.Cache
+C:\ProjetosCshap\estudos\Singleton\bin\Debug\Singleton.exe
+C:\ProjetosCshap\estudos\Singleton\bin\Debug\Singleton.pdb
+C:\ProjetosCshap\estudos\Singleton\obj\x86\Debug\Singleton.exe
+C:\ProjetosCshap\estudos\Singleton\obj\x86\Debug\Singleton.pdb
+c:\ProjetosCshap\estudos\Singleton\obj\x86\Debug\Singleton.csprojResolveAssemblyReference.cache
