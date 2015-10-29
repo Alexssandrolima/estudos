@@ -1,0 +1,1 @@
+Jogo da Forca feito em C# - Para se jogar 1° um pessoa inclui uma palavra depois, outra pessoa tentar descobrir a mesma.
