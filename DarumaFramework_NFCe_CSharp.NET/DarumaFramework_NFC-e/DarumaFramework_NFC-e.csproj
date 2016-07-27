@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6135A95-3913-4D37-B3F7-87B675AC8A3B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DarumaFramework_NFC_e</RootNamespace>
+    <AssemblyName>DarumaFramework_NFC-e</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FR_aCFIdentificarConsumidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFIdentificarConsumidor.Designer.cs">
+      <DependentUpon>FR_aCFIdentificarConsumidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFAbrirNumSerie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFAbrirNumSerie.Designer.cs">
+      <DependentUpon>FR_aCFAbrirNumSerie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFAbrir_NFCe_Daruma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFAbrir_NFCe_Daruma.Designer.cs">
+      <DependentUpon>FR_aCFAbrir_NFCe_Daruma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFCancelarAcrescimoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFCancelarAcrescimoItem.Designer.cs">
+      <DependentUpon>FR_aCFCancelarAcrescimoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFCancelarDescontoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFCancelarDescontoItem.Designer.cs">
+      <DependentUpon>FR_aCFCancelarDescontoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFCancelarItemParcial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFCancelarItemParcial.Designer.cs">
+      <DependentUpon>FR_aCFCancelarItemParcial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFEfetuarPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFEfetuarPagamento.Designer.cs">
+      <DependentUpon>FR_aCFEfetuarPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFEstornarPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFEstornarPagamento.Designer.cs">
+      <DependentUpon>FR_aCFEstornarPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFIdentificarTransportadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFIdentificarTransportadora.Designer.cs">
+      <DependentUpon>FR_aCFIdentificarTransportadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFLancarAcrescimoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFLancarAcrescimoItem.Designer.cs">
+      <DependentUpon>FR_aCFLancarAcrescimoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFLancarDescontoItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFLancarDescontoItem.Designer.cs">
+      <DependentUpon>FR_aCFLancarDescontoItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFTotalizar_NFCe_Daruma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFTotalizar_NFCe_Daruma.Designer.cs">
+      <DependentUpon>FR_aCFTotalizar_NFCe_Daruma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFVenderCompleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFVenderCompleto.Designer.cs">
+      <DependentUpon>FR_aCFVenderCompleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_aCFVender_NFCe_Daruma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_aCFVender_NFCe_Daruma.Designer.cs">
+      <DependentUpon>FR_aCFVender_NFCe_Daruma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Declaracoes.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_CancelarItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_CancelarItem.Designer.cs">
+      <DependentUpon>FR_CancelarItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_ChaveDesenvolvedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_ChaveDesenvolvedor.Designer.cs">
+      <DependentUpon>FR_ChaveDesenvolvedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_Configuracao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_Configuracao.Designer.cs">
+      <DependentUpon>FR_Configuracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_ConfiguraCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_ConfiguraCliente.Designer.cs">
+      <DependentUpon>FR_ConfiguraCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_iCFImprimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_iCFImprimir.Designer.cs">
+      <DependentUpon>FR_iCFImprimir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_iCFReImprimir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_iCFReImprimir.Designer.cs">
+      <DependentUpon>FR_iCFReImprimir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_rInfoEstendida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_rInfoEstendida.Designer.cs">
+      <DependentUpon>FR_rInfoEstendida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_rRetornaInformacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_rRetornaInformacao.Designer.cs">
+      <DependentUpon>FR_rRetornaInformacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_rURLQrcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_rURLQrcode.Designer.cs">
+      <DependentUpon>FR_rURLQrcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_tCFCancelar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_tCFCancelar.Designer.cs">
+      <DependentUpon>FR_tCFCancelar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_tCFInutilizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_tCFInutilizar.Designer.cs">
+      <DependentUpon>FR_tCFInutilizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FR_VendaBufferizada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_VendaBufferizada.Designer.cs">
+      <DependentUpon>FR_VendaBufferizada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FR_aCFIdentificarConsumidor.resx">
+      <DependentUpon>FR_aCFIdentificarConsumidor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFAbrirNumSerie.resx">
+      <DependentUpon>FR_aCFAbrirNumSerie.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFAbrir_NFCe_Daruma.resx">
+      <DependentUpon>FR_aCFAbrir_NFCe_Daruma.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFCancelarAcrescimoItem.resx">
+      <DependentUpon>FR_aCFCancelarAcrescimoItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFCancelarDescontoItem.resx">
+      <DependentUpon>FR_aCFCancelarDescontoItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFCancelarItemParcial.resx">
+      <DependentUpon>FR_aCFCancelarItemParcial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFEfetuarPagamento.resx">
+      <DependentUpon>FR_aCFEfetuarPagamento.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFEstornarPagamento.resx">
+      <DependentUpon>FR_aCFEstornarPagamento.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFIdentificarTransportadora.resx">
+      <DependentUpon>FR_aCFIdentificarTransportadora.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFLancarAcrescimoItem.resx">
+      <DependentUpon>FR_aCFLancarAcrescimoItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFLancarDescontoItem.resx">
+      <DependentUpon>FR_aCFLancarDescontoItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFTotalizar_NFCe_Daruma.resx">
+      <DependentUpon>FR_aCFTotalizar_NFCe_Daruma.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFVenderCompleto.resx">
+      <DependentUpon>FR_aCFVenderCompleto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_aCFVender_NFCe_Daruma.resx">
+      <DependentUpon>FR_aCFVender_NFCe_Daruma.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_CancelarItem.resx">
+      <DependentUpon>FR_CancelarItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_ChaveDesenvolvedor.resx">
+      <DependentUpon>FR_ChaveDesenvolvedor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_Configuracao.resx">
+      <DependentUpon>FR_Configuracao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_ConfiguraCliente.resx">
+      <DependentUpon>FR_ConfiguraCliente.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_iCFImprimir.resx">
+      <DependentUpon>FR_iCFImprimir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_iCFReImprimir.resx">
+      <DependentUpon>FR_iCFReImprimir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_rInfoEstendida.resx">
+      <DependentUpon>FR_rInfoEstendida.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_rRetornaInformacao.resx">
+      <DependentUpon>FR_rRetornaInformacao.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_rURLQrcode.resx">
+      <DependentUpon>FR_rURLQrcode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_tCFCancelar.resx">
+      <DependentUpon>FR_tCFCancelar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_tCFInutilizar.resx">
+      <DependentUpon>FR_tCFInutilizar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_VendaBufferizada.resx">
+      <DependentUpon>FR_VendaBufferizada.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FR_tCFEncerrar_NFCe_Daruma.resx">
+      <DependentUpon>FR_tCFEncerrar_NFCe_Daruma.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FR_tCFEncerrar_NFCe_Daruma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FR_tCFEncerrar_NFCe_Daruma.Designer.cs">
+      <DependentUpon>FR_tCFEncerrar_NFCe_Daruma.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arte_SolucaoNFCe_840x472_21102013.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
