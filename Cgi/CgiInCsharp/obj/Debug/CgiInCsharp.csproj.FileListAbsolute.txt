@@ -1,0 +1,6 @@
+C:\ProjetosCshap\estudar\Cgi\CgiInCsharp\bin\Debug\CgiInCsharp.exe.config
+C:\ProjetosCshap\estudar\Cgi\CgiInCsharp\obj\Debug\CgiInCsharp.csprojResolveAssemblyReference.cache
+C:\ProjetosCshap\estudar\Cgi\CgiInCsharp\bin\Debug\CgiInCsharp.exe
+C:\ProjetosCshap\estudar\Cgi\CgiInCsharp\bin\Debug\CgiInCsharp.pdb
+C:\ProjetosCshap\estudar\Cgi\CgiInCsharp\obj\Debug\CgiInCsharp.exe
+C:\ProjetosCshap\estudar\Cgi\CgiInCsharp\obj\Debug\CgiInCsharp.pdb

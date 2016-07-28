@@ -1,0 +1,9 @@
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\bin\Debug\FormsTestes.exe.config
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\bin\Debug\FormsTestes.exe
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\bin\Debug\FormsTestes.pdb
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\obj\Debug\FormsTestes.csprojResolveAssemblyReference.cache
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\obj\Debug\FormsTestes.Form1.resources
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\obj\Debug\FormsTestes.Properties.Resources.resources
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\obj\Debug\FormsTestes.csproj.GenerateResource.Cache
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\obj\Debug\FormsTestes.exe
+C:\ProjetosCshap\estudar\FormTeste\FormsTestes\obj\Debug\FormsTestes.pdb

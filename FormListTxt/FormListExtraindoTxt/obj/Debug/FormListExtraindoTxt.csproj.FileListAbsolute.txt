@@ -1,0 +1,10 @@
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\bin\Debug\FormListExtraindoTxt.exe.config
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\bin\Debug\FormListExtraindoTxt.exe
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\bin\Debug\FormListExtraindoTxt.pdb
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\obj\Debug\FormListExtraindoTxt.csprojResolveAssemblyReference.cache
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\obj\Debug\FormListExtraindoTxt.FormPrincipal.resources
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\obj\Debug\FormListExtraindoTxt.Properties.Resources.resources
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\obj\Debug\FormListExtraindoTxt.csproj.GenerateResource.Cache
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\obj\Debug\FormListExtraindoTxt.exe
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\obj\Debug\FormListExtraindoTxt.pdb
+C:\ProjetosCshap\estudar\FormListTxt\FormListExtraindoTxt\obj\Debug\FormListExtraindoTxt.FormSiteFpopular.resources
