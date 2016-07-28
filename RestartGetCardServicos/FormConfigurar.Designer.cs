@@ -59,7 +59,6 @@
             this.panelConfigurar.Name = "panelConfigurar";
             this.panelConfigurar.Size = new System.Drawing.Size(659, 440);
             this.panelConfigurar.TabIndex = 0;
-            this.panelConfigurar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelConfigurar_Paint);
             // 
             // buttonProcurarArquivo
             // 

@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.webBbanner1 = new System.Windows.Forms.WebBrowser();
             this.labelConfiguracao = new System.Windows.Forms.Label();
-            this.checkBoxAutomatica = new System.Windows.Forms.CheckBox();
             this.buttonIniciarServiço = new System.Windows.Forms.Button();
             this.buttonCancelar = new System.Windows.Forms.Button();
             this.buttonSair = new System.Windows.Forms.Button();
@@ -44,6 +44,10 @@
             this.groupBoxAutomaticamente = new System.Windows.Forms.GroupBox();
             this.checkBoxReiniciarVpn = new System.Windows.Forms.CheckBox();
             this.checkBoxLigarTefDialReiniciar = new System.Windows.Forms.CheckBox();
+            this.checkBoxAutomatica = new System.Windows.Forms.CheckBox();
+            this.labelVersao = new System.Windows.Forms.Label();
+            this.progressBarRodape = new System.Windows.Forms.ProgressBar();
+            this.timerSistema = new System.Windows.Forms.Timer(this.components);
             this.panelPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBoxAutomaticamente.SuspendLayout();
@@ -52,6 +56,8 @@
             // panelPrincipal
             // 
             this.panelPrincipal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelPrincipal.Controls.Add(this.progressBarRodape);
+            this.panelPrincipal.Controls.Add(this.labelVersao);
             this.panelPrincipal.Controls.Add(this.webBbanner1);
             this.panelPrincipal.Controls.Add(this.labelConfiguracao);
             this.panelPrincipal.Controls.Add(this.buttonIniciarServiço);
@@ -66,9 +72,8 @@
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(1025, 443);
+            this.panelPrincipal.Size = new System.Drawing.Size(1025, 461);
             this.panelPrincipal.TabIndex = 0;
-            this.panelPrincipal.Paint += new System.Windows.Forms.PaintEventHandler(this.panelPrincipal_Paint);
             // 
             // webBbanner1
             // 
@@ -79,7 +84,7 @@
             this.webBbanner1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBbanner1.Name = "webBbanner1";
             this.webBbanner1.ScrollBarsEnabled = false;
-            this.webBbanner1.Size = new System.Drawing.Size(364, 413);
+            this.webBbanner1.Size = new System.Drawing.Size(364, 431);
             this.webBbanner1.TabIndex = 12;
             this.webBbanner1.Url = new System.Uri("http://vciga.dyndns.org/banner.html", System.UriKind.Absolute);
             // 
@@ -90,18 +95,8 @@
             this.labelConfiguracao.Name = "labelConfiguracao";
             this.labelConfiguracao.Size = new System.Drawing.Size(100, 13);
             this.labelConfiguracao.TabIndex = 8;
-            this.labelConfiguracao.Text = "<< Configuração >>";
+            this.labelConfiguracao.Text = "<< Configuração >> ";
             this.labelConfiguracao.Click += new System.EventHandler(this.labelConfiguracao_Click);
-            // 
-            // checkBoxAutomatica
-            // 
-            this.checkBoxAutomatica.AutoSize = true;
-            this.checkBoxAutomatica.Location = new System.Drawing.Point(17, 66);
-            this.checkBoxAutomatica.Name = "checkBoxAutomatica";
-            this.checkBoxAutomatica.Size = new System.Drawing.Size(154, 17);
-            this.checkBoxAutomatica.TabIndex = 7;
-            this.checkBoxAutomatica.Text = "Automaticamente ao Iniciar";
-            this.checkBoxAutomatica.UseVisualStyleBackColor = true;
             // 
             // buttonIniciarServiço
             // 
@@ -110,17 +105,17 @@
             this.buttonIniciarServiço.Name = "buttonIniciarServiço";
             this.buttonIniciarServiço.Size = new System.Drawing.Size(269, 94);
             this.buttonIniciarServiço.TabIndex = 6;
-            this.buttonIniciarServiço.Text = "Reiniciar &Serviço";
+            this.buttonIniciarServiço.Text = "Reiniciar &Serviço GET";
             this.buttonIniciarServiço.UseVisualStyleBackColor = true;
             this.buttonIniciarServiço.Click += new System.EventHandler(this.buttonIniciarServiço_Click);
             // 
             // buttonCancelar
             // 
-            this.buttonCancelar.Location = new System.Drawing.Point(480, 393);
+            this.buttonCancelar.Location = new System.Drawing.Point(465, 393);
             this.buttonCancelar.Name = "buttonCancelar";
-            this.buttonCancelar.Size = new System.Drawing.Size(75, 33);
+            this.buttonCancelar.Size = new System.Drawing.Size(91, 33);
             this.buttonCancelar.TabIndex = 5;
-            this.buttonCancelar.Text = "R&einiciar";
+            this.buttonCancelar.Text = "S&alvar e Sair";
             this.buttonCancelar.UseVisualStyleBackColor = true;
             this.buttonCancelar.Click += new System.EventHandler(this.buttonCancelar_Click);
             // 
@@ -185,7 +180,7 @@
             this.groupBoxAutomaticamente.Controls.Add(this.checkBoxAutomatica);
             this.groupBoxAutomaticamente.Location = new System.Drawing.Point(287, 327);
             this.groupBoxAutomaticamente.Name = "groupBoxAutomaticamente";
-            this.groupBoxAutomaticamente.Size = new System.Drawing.Size(190, 98);
+            this.groupBoxAutomaticamente.Size = new System.Drawing.Size(174, 98);
             this.groupBoxAutomaticamente.TabIndex = 10;
             this.groupBoxAutomaticamente.TabStop = false;
             // 
@@ -209,13 +204,44 @@
             this.checkBoxLigarTefDialReiniciar.Text = "Ligar TefDial ao Reiniciar";
             this.checkBoxLigarTefDialReiniciar.UseVisualStyleBackColor = true;
             // 
+            // checkBoxAutomatica
+            // 
+            this.checkBoxAutomatica.AutoSize = true;
+            this.checkBoxAutomatica.Location = new System.Drawing.Point(17, 66);
+            this.checkBoxAutomatica.Name = "checkBoxAutomatica";
+            this.checkBoxAutomatica.Size = new System.Drawing.Size(154, 17);
+            this.checkBoxAutomatica.TabIndex = 7;
+            this.checkBoxAutomatica.Text = "Automaticamente ao Iniciar";
+            this.checkBoxAutomatica.UseVisualStyleBackColor = true;
+            // 
+            // labelVersao
+            // 
+            this.labelVersao.AutoSize = true;
+            this.labelVersao.Location = new System.Drawing.Point(556, 52);
+            this.labelVersao.Name = "labelVersao";
+            this.labelVersao.Size = new System.Drawing.Size(79, 13);
+            this.labelVersao.TabIndex = 13;
+            this.labelVersao.Text = "Versão 2.00.00";
+            // 
+            // progressBarRodape
+            // 
+            this.progressBarRodape.Location = new System.Drawing.Point(12, 432);
+            this.progressBarRodape.Name = "progressBarRodape";
+            this.progressBarRodape.Size = new System.Drawing.Size(621, 16);
+            this.progressBarRodape.TabIndex = 14;
+            // 
+            // timerSistema
+            // 
+            this.timerSistema.Enabled = true;
+            this.timerSistema.Tick += new System.EventHandler(this.timerSistema_Tick);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1025, 443);
+            this.ClientSize = new System.Drawing.Size(1025, 461);
             this.Controls.Add(this.panelPrincipal);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -247,6 +273,9 @@
         private System.Windows.Forms.WebBrowser webBbanner1;
         private System.Windows.Forms.CheckBox checkBoxReiniciarVpn;
         private System.Windows.Forms.CheckBox checkBoxLigarTefDialReiniciar;
+        private System.Windows.Forms.Label labelVersao;
+        private System.Windows.Forms.ProgressBar progressBarRodape;
+        private System.Windows.Forms.Timer timerSistema;
     }
 }
 

@@ -29,8 +29,7 @@ namespace RestartGetCardServicos
 
         private void buttonProcurarArquivo_Click(object sender, EventArgs e)
         {
-            _openFile = new OpenFileDialog
-            {
+            _openFile = new OpenFileDialog            {
                 InitialDirectory = "C:\\TEF_DIAL\\",
                 Filter = Filefilter,
                 Title = FileTitle,
@@ -43,17 +42,6 @@ namespace RestartGetCardServicos
                 textBoxNomeLocalextensao.Text = _openFile.FileName; // aqui você pega o local + nome do arquivo completo.
                 textBoxNomedoServicoWindows.Text = FileService;
             }
-
-
-
-            //SaveFileDialog saveFileDialog1 = new SaveFileDialog();
-            //saveFileDialog1.Filter = "JPeg Image|*.jpg|Bitmap Image|*.bmp|Gif Image|*.gif";
-            //saveFileDialog1.Title = "Save an Image File";
-            //saveFileDialog1.ShowDialog();
-
-            //MessageBox.Show("Pegou o arquivo " + openFile.FileName);
-
-            //string nomeArq = System.IO.Path.GetFullPath(fileName);
         }
 
         private void buttonCancelar_Click(object sender, EventArgs e)
@@ -69,11 +57,6 @@ namespace RestartGetCardServicos
             Settings.Default.Save();
 
             Close();
-        }
-
-        private void panelConfigurar_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void FormConfigurar_Load(object sender, EventArgs e)

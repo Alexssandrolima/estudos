@@ -1,0 +1,9 @@
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\bin\Debug\TestRestartGetCardServicos.dll
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\bin\Debug\TestRestartGetCardServicos.pdb
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\bin\Debug\RestartGetCardServicos.exe
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\bin\Debug\RestartGetCardServicos.pdb
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\bin\Debug\RestartGetCardServicos_Accessor.exe
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\bin\Debug\RestartGetCardServicos_Accessor.pdb
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\obj\Debug\TestRestartGetCardServicos.csprojResolveAssemblyReference.cache
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\obj\Debug\TestRestartGetCardServicos.dll
+C:\ProjetosCshap\estudos\RestartGetCardServicos\TestRestartGetCardServicos\obj\Debug\TestRestartGetCardServicos.pdb
