@@ -1,0 +1,5 @@
+C:\ProjetosCshap\estudar\Sql\UnitTestConstrutorSQL\bin\Debug\UnitTestConstrutorSQL.dll
+C:\ProjetosCshap\estudar\Sql\UnitTestConstrutorSQL\bin\Debug\UnitTestConstrutorSQL.pdb
+C:\ProjetosCshap\estudar\Sql\UnitTestConstrutorSQL\obj\Debug\UnitTestConstrutorSQL.csprojResolveAssemblyReference.cache
+C:\ProjetosCshap\estudar\Sql\UnitTestConstrutorSQL\obj\Debug\UnitTestConstrutorSQL.dll
+C:\ProjetosCshap\estudar\Sql\UnitTestConstrutorSQL\obj\Debug\UnitTestConstrutorSQL.pdb
