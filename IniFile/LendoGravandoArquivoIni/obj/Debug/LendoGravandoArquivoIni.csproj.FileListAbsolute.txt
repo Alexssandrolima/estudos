@@ -1,0 +1,9 @@
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\bin\Debug\LendoGravandoArquivoIni.exe.config
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\bin\Debug\LendoGravandoArquivoIni.exe
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\bin\Debug\LendoGravandoArquivoIni.pdb
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\obj\Debug\LendoGravandoArquivoIni.csprojResolveAssemblyReference.cache
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\obj\Debug\LendoGravandoArquivoIni.Form1.resources
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\obj\Debug\LendoGravandoArquivoIni.Properties.Resources.resources
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\obj\Debug\LendoGravandoArquivoIni.csproj.GenerateResource.Cache
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\obj\Debug\LendoGravandoArquivoIni.exe
+C:\ProjetosCshap\estudos\IniFile\LendoGravandoArquivoIni\obj\Debug\LendoGravandoArquivoIni.pdb

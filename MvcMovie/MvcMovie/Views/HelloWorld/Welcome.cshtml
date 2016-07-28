@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Bem vindo ao Movie App";
+}
+
+<h2>@ViewBag.Title</h2>
+<ul> 
+   @for (int i=0; i < ViewBag.NumTimes; i++) 
+   { 
+      <li>@ViewBag.Message</li> 
+   } 
+
+</ul>
